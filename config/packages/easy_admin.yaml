@@ -1,0 +1,11 @@
+easy_admin:
+  design:
+    assets:
+      css:
+        - 'bundles/easyadmin/app.css'
+  entities:
+    TestEntity:
+      class: App\Entity\TestEntity
+      templates:
+        edit: 'Admin/test.edit.html.twig'
+        new: 'Admin/test.edit.html.twig'
